@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 9pt;
+}
+
+p {
+   font-family: Verdana, Tahoma, Arial, sans-serif;
+   font-size: 9pt;
+   color: #cc66ff;
+   font-weight:bold;
+   font-style:italic;
+}
+
+h1 {
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  color: #8B008B;
+  text-align:center;
+}
+
+{font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #cc66FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #800080;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f5eff5;
+  padding: 20px;
+}
+input[type=button] {
+  background-color: #ff4ca3;
+  color: white;
+  padding: 18px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=button]:hover {
+  background-color: #800080;
+}
